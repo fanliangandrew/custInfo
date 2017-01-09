@@ -38,7 +38,7 @@ public class HelloWorldController {
     }
 
     private String getData() throws IOException {
-        String pathName = "C:\\custInfoSystem\\custInfo\\data\\data.json";
+        String pathName = "D:\\Git Project\\custInfoDemo\\custInfo\\data\\data.json";
         File file = new File(pathName);
         String line = "";
         if(file.isFile() && file.exists() ){
@@ -77,7 +77,7 @@ public class HelloWorldController {
     // for testing..
     public static void main(String[] args) throws IOException {
         System.out.println(System.getProperty("file.encoding"));
-        String pathName = "C:\\custInfoSystem\\custInfo\\data\\data.json";
+        String pathName = "D:\\Git Project\\custInfoDemo\\custInfo\\data\\data.json";
         File file = new File(pathName);
         String line = "";
         if(file.isFile() && file.exists() ){
